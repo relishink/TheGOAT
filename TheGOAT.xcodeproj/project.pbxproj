@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DE61E13851DFA96E5130900 /* Pods_TheGOAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7086750722041F2C1E7F00D3 /* Pods_TheGOAT.framework */; };
 		98F332B51E1829C8007A6F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332B41E1829C8007A6F15 /* AppDelegate.swift */; };
 		98F332B71E1829C8007A6F15 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332B61E1829C8007A6F15 /* FirstViewController.swift */; };
 		98F332B91E1829C8007A6F15 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332B81E1829C8007A6F15 /* SecondViewController.swift */; };
 		98F332BC1E1829C8007A6F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BA1E1829C8007A6F15 /* Main.storyboard */; };
 		98F332BE1E1829C8007A6F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BD1E1829C8007A6F15 /* Assets.xcassets */; };
 		98F332C11E1829C8007A6F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BF1E1829C8007A6F15 /* LaunchScreen.storyboard */; };
+		98F332CB1E182EA6007A6F15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F332CA1E182EA6007A6F15 /* GoogleService-Info.plist */; };
+		98F332CE1E182F37007A6F15 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332CD1E182F37007A6F15 /* LogInViewController.swift */; };
+		98F332D01E182F9A007A6F15 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332CF1E182F9A007A6F15 /* CreateAccountViewController.swift */; };
+		98F332D31E182FEB007A6F15 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332D21E182FEB007A6F15 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E46D75C061268FC8B8BF733 /* Pods-TheGOAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheGOAT.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheGOAT/Pods-TheGOAT.release.xcconfig"; sourceTree = "<group>"; };
+		7086750722041F2C1E7F00D3 /* Pods_TheGOAT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheGOAT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F332B11E1829C8007A6F15 /* TheGOAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGOAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F332B41E1829C8007A6F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F332B61E1829C8007A6F15 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		98F332BD1E1829C8007A6F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F332C01E1829C8007A6F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F332C21E1829C8007A6F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F332CA1E182EA6007A6F15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		98F332CD1E182F37007A6F15 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		98F332CF1E182F9A007A6F15 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		98F332D21E182FEB007A6F15 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F25BED9A46136A125BF0E6E2 /* Pods-TheGOAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheGOAT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheGOAT/Pods-TheGOAT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE61E13851DFA96E5130900 /* Pods_TheGOAT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		495D0B6FAD0B9D17F9A7FA15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F25BED9A46136A125BF0E6E2 /* Pods-TheGOAT.debug.xcconfig */,
+				5E46D75C061268FC8B8BF733 /* Pods-TheGOAT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		98F332A81E1829C8007A6F15 = {
 			isa = PBXGroup;
 			children = (
 				98F332B31E1829C8007A6F15 /* TheGOAT */,
 				98F332B21E1829C8007A6F15 /* Products */,
+				495D0B6FAD0B9D17F9A7FA15 /* Pods */,
+				EDAAD6778B6E3A04C7A696B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,35 @@
 		98F332B31E1829C8007A6F15 /* TheGOAT */ = {
 			isa = PBXGroup;
 			children = (
+				98F332CC1E182F10007A6F15 /* ViewControllers */,
 				98F332B41E1829C8007A6F15 /* AppDelegate.swift */,
-				98F332B61E1829C8007A6F15 /* FirstViewController.swift */,
-				98F332B81E1829C8007A6F15 /* SecondViewController.swift */,
 				98F332BA1E1829C8007A6F15 /* Main.storyboard */,
 				98F332BD1E1829C8007A6F15 /* Assets.xcassets */,
 				98F332BF1E1829C8007A6F15 /* LaunchScreen.storyboard */,
 				98F332C21E1829C8007A6F15 /* Info.plist */,
+				98F332CA1E182EA6007A6F15 /* GoogleService-Info.plist */,
 			);
 			path = TheGOAT;
+			sourceTree = "<group>";
+		};
+		98F332CC1E182F10007A6F15 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				98F332B61E1829C8007A6F15 /* FirstViewController.swift */,
+				98F332B81E1829C8007A6F15 /* SecondViewController.swift */,
+				98F332CD1E182F37007A6F15 /* LogInViewController.swift */,
+				98F332CF1E182F9A007A6F15 /* CreateAccountViewController.swift */,
+				98F332D21E182FEB007A6F15 /* ForgotPasswordViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDAAD6778B6E3A04C7A696B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7086750722041F2C1E7F00D3 /* Pods_TheGOAT.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98F332C51E1829C8007A6F15 /* Build configuration list for PBXNativeTarget "TheGOAT" */;
 			buildPhases = (
+				B26514871AFBAC9252E57103 /* [CP] Check Pods Manifest.lock */,
 				98F332AD1E1829C8007A6F15 /* Sources */,
 				98F332AE1E1829C8007A6F15 /* Frameworks */,
 				98F332AF1E1829C8007A6F15 /* Resources */,
+				2ADD99F4959494C8896B1734 /* [CP] Embed Pods Frameworks */,
+				FAB6EC9ABEDF754F40D92C57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F332C11E1829C8007A6F15 /* LaunchScreen.storyboard in Resources */,
+				98F332CB1E182EA6007A6F15 /* GoogleService-Info.plist in Resources */,
 				98F332BE1E1829C8007A6F15 /* Assets.xcassets in Resources */,
 				98F332BC1E1829C8007A6F15 /* Main.storyboard in Resources */,
 			);
@@ -135,11 +183,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2ADD99F4959494C8896B1734 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheGOAT/Pods-TheGOAT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26514871AFBAC9252E57103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB6EC9ABEDF754F40D92C57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheGOAT/Pods-TheGOAT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		98F332AD1E1829C8007A6F15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F332D01E182F9A007A6F15 /* CreateAccountViewController.swift in Sources */,
+				98F332CE1E182F37007A6F15 /* LogInViewController.swift in Sources */,
+				98F332D31E182FEB007A6F15 /* ForgotPasswordViewController.swift in Sources */,
 				98F332B91E1829C8007A6F15 /* SecondViewController.swift in Sources */,
 				98F332B51E1829C8007A6F15 /* AppDelegate.swift in Sources */,
 				98F332B71E1829C8007A6F15 /* FirstViewController.swift in Sources */,
@@ -261,6 +360,7 @@
 		};
 		98F332C61E1829C8007A6F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25BED9A46136A125BF0E6E2 /* Pods-TheGOAT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L7UBP2M73C;
@@ -274,6 +374,7 @@
 		};
 		98F332C71E1829C8007A6F15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E46D75C061268FC8B8BF733 /* Pods-TheGOAT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L7UBP2M73C;
@@ -304,6 +405,7 @@
 				98F332C71E1829C8007A6F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
