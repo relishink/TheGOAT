@@ -8,21 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		2DE61E13851DFA96E5130900 /* Pods_TheGOAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7086750722041F2C1E7F00D3 /* Pods_TheGOAT.framework */; };
+		982A71E91E196CEC0083F7B7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 982A71E81E196CEC0083F7B7 /* background.png */; };
+		982A71EB1E196DF40083F7B7 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982A71EA1E196DF40083F7B7 /* CreateAccountViewController.swift */; };
+		98648F501E18347A00D4F0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BA1E1829C8007A6F15 /* Main.storyboard */; };
+		98648F601E18451900D4F0DF /* icons-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F561E18451900D4F0DF /* icons-27.png */; };
+		98648F611E18451900D4F0DF /* icons-28.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F571E18451900D4F0DF /* icons-28.png */; };
+		98648F621E18451900D4F0DF /* icons-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F581E18451900D4F0DF /* icons-29.png */; };
+		98648F631E18451900D4F0DF /* icons-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F591E18451900D4F0DF /* icons-30.png */; };
+		98648F641E18451900D4F0DF /* icons-31.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F5A1E18451900D4F0DF /* icons-31.png */; };
+		98648F651E18451900D4F0DF /* icons-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F5B1E18451900D4F0DF /* icons-32.png */; };
+		98648F661E18451900D4F0DF /* icons-33.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F5C1E18451900D4F0DF /* icons-33.png */; };
+		98648F671E18451900D4F0DF /* icons-34.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F5D1E18451900D4F0DF /* icons-34.png */; };
+		98648F681E18451900D4F0DF /* icons-35.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F5E1E18451900D4F0DF /* icons-35.png */; };
+		98648F691E18451900D4F0DF /* icons-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F5F1E18451900D4F0DF /* icons-36.png */; };
+		98648F6B1E18475B00D4F0DF /* home-27.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F6A1E18475B00D4F0DF /* home-27.png */; };
+		98648F6D1E184BD100D4F0DF /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98648F6C1E184BD100D4F0DF /* LogInViewController.swift */; };
+		98648F731E1853B900D4F0DF /* logo-sm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 98648F721E1853B900D4F0DF /* logo-sm.svg */; };
+		98648F751E1853E100D4F0DF /* login-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 98648F741E1853E100D4F0DF /* login-logo.png */; };
 		98F332B51E1829C8007A6F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332B41E1829C8007A6F15 /* AppDelegate.swift */; };
 		98F332B71E1829C8007A6F15 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332B61E1829C8007A6F15 /* FirstViewController.swift */; };
 		98F332B91E1829C8007A6F15 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332B81E1829C8007A6F15 /* SecondViewController.swift */; };
-		98F332BC1E1829C8007A6F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BA1E1829C8007A6F15 /* Main.storyboard */; };
 		98F332BE1E1829C8007A6F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BD1E1829C8007A6F15 /* Assets.xcassets */; };
 		98F332C11E1829C8007A6F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F332BF1E1829C8007A6F15 /* LaunchScreen.storyboard */; };
 		98F332CB1E182EA6007A6F15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 98F332CA1E182EA6007A6F15 /* GoogleService-Info.plist */; };
-		98F332CE1E182F37007A6F15 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332CD1E182F37007A6F15 /* LogInViewController.swift */; };
-		98F332D01E182F9A007A6F15 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332CF1E182F9A007A6F15 /* CreateAccountViewController.swift */; };
-		98F332D31E182FEB007A6F15 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F332D21E182FEB007A6F15 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E46D75C061268FC8B8BF733 /* Pods-TheGOAT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheGOAT.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheGOAT/Pods-TheGOAT.release.xcconfig"; sourceTree = "<group>"; };
 		7086750722041F2C1E7F00D3 /* Pods_TheGOAT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheGOAT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		982A71E81E196CEC0083F7B7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		982A71EA1E196DF40083F7B7 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		98648F561E18451900D4F0DF /* icons-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-27.png"; sourceTree = "<group>"; };
+		98648F571E18451900D4F0DF /* icons-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-28.png"; sourceTree = "<group>"; };
+		98648F581E18451900D4F0DF /* icons-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-29.png"; sourceTree = "<group>"; };
+		98648F591E18451900D4F0DF /* icons-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-30.png"; sourceTree = "<group>"; };
+		98648F5A1E18451900D4F0DF /* icons-31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-31.png"; sourceTree = "<group>"; };
+		98648F5B1E18451900D4F0DF /* icons-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-32.png"; sourceTree = "<group>"; };
+		98648F5C1E18451900D4F0DF /* icons-33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-33.png"; sourceTree = "<group>"; };
+		98648F5D1E18451900D4F0DF /* icons-34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-34.png"; sourceTree = "<group>"; };
+		98648F5E1E18451900D4F0DF /* icons-35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-35.png"; sourceTree = "<group>"; };
+		98648F5F1E18451900D4F0DF /* icons-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-36.png"; sourceTree = "<group>"; };
+		98648F6A1E18475B00D4F0DF /* home-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-27.png"; sourceTree = "<group>"; };
+		98648F6C1E184BD100D4F0DF /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		98648F721E1853B900D4F0DF /* logo-sm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "logo-sm.svg"; sourceTree = "<group>"; };
+		98648F741E1853E100D4F0DF /* login-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-logo.png"; sourceTree = "<group>"; };
 		98F332B11E1829C8007A6F15 /* TheGOAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGOAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F332B41E1829C8007A6F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F332B61E1829C8007A6F15 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -32,9 +61,6 @@
 		98F332C01E1829C8007A6F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F332C21E1829C8007A6F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98F332CA1E182EA6007A6F15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		98F332CD1E182F37007A6F15 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		98F332CF1E182F9A007A6F15 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		98F332D21E182FEB007A6F15 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		F25BED9A46136A125BF0E6E2 /* Pods-TheGOAT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheGOAT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheGOAT/Pods-TheGOAT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +85,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		98648F551E18450D00D4F0DF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				98648F721E1853B900D4F0DF /* logo-sm.svg */,
+				982A71E81E196CEC0083F7B7 /* background.png */,
+				98648F741E1853E100D4F0DF /* login-logo.png */,
+				98648F561E18451900D4F0DF /* icons-27.png */,
+				98648F6A1E18475B00D4F0DF /* home-27.png */,
+				98648F571E18451900D4F0DF /* icons-28.png */,
+				98648F581E18451900D4F0DF /* icons-29.png */,
+				98648F591E18451900D4F0DF /* icons-30.png */,
+				98648F5A1E18451900D4F0DF /* icons-31.png */,
+				98648F5B1E18451900D4F0DF /* icons-32.png */,
+				98648F5C1E18451900D4F0DF /* icons-33.png */,
+				98648F5D1E18451900D4F0DF /* icons-34.png */,
+				98648F5E1E18451900D4F0DF /* icons-35.png */,
+				98648F5F1E18451900D4F0DF /* icons-36.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
 		98F332A81E1829C8007A6F15 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +127,7 @@
 		98F332B31E1829C8007A6F15 /* TheGOAT */ = {
 			isa = PBXGroup;
 			children = (
+				98648F551E18450D00D4F0DF /* icons */,
 				98F332CC1E182F10007A6F15 /* ViewControllers */,
 				98F332B41E1829C8007A6F15 /* AppDelegate.swift */,
 				98F332BA1E1829C8007A6F15 /* Main.storyboard */,
@@ -96,9 +144,8 @@
 			children = (
 				98F332B61E1829C8007A6F15 /* FirstViewController.swift */,
 				98F332B81E1829C8007A6F15 /* SecondViewController.swift */,
-				98F332CD1E182F37007A6F15 /* LogInViewController.swift */,
-				98F332CF1E182F9A007A6F15 /* CreateAccountViewController.swift */,
-				98F332D21E182FEB007A6F15 /* ForgotPasswordViewController.swift */,
+				98648F6C1E184BD100D4F0DF /* LogInViewController.swift */,
+				982A71EA1E196DF40083F7B7 /* CreateAccountViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -174,10 +221,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98648F731E1853B900D4F0DF /* logo-sm.svg in Resources */,
+				98648F621E18451900D4F0DF /* icons-29.png in Resources */,
+				98648F651E18451900D4F0DF /* icons-32.png in Resources */,
 				98F332C11E1829C8007A6F15 /* LaunchScreen.storyboard in Resources */,
+				98648F641E18451900D4F0DF /* icons-31.png in Resources */,
+				98648F661E18451900D4F0DF /* icons-33.png in Resources */,
+				98648F601E18451900D4F0DF /* icons-27.png in Resources */,
+				982A71E91E196CEC0083F7B7 /* background.png in Resources */,
+				98648F681E18451900D4F0DF /* icons-35.png in Resources */,
+				98648F631E18451900D4F0DF /* icons-30.png in Resources */,
+				98648F611E18451900D4F0DF /* icons-28.png in Resources */,
+				98648F751E1853E100D4F0DF /* login-logo.png in Resources */,
 				98F332CB1E182EA6007A6F15 /* GoogleService-Info.plist in Resources */,
 				98F332BE1E1829C8007A6F15 /* Assets.xcassets in Resources */,
-				98F332BC1E1829C8007A6F15 /* Main.storyboard in Resources */,
+				98648F501E18347A00D4F0DF /* Main.storyboard in Resources */,
+				98648F6B1E18475B00D4F0DF /* home-27.png in Resources */,
+				98648F671E18451900D4F0DF /* icons-34.png in Resources */,
+				98648F691E18451900D4F0DF /* icons-36.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,9 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F332D01E182F9A007A6F15 /* CreateAccountViewController.swift in Sources */,
-				98F332CE1E182F37007A6F15 /* LogInViewController.swift in Sources */,
-				98F332D31E182FEB007A6F15 /* ForgotPasswordViewController.swift in Sources */,
+				982A71EB1E196DF40083F7B7 /* CreateAccountViewController.swift in Sources */,
+				98648F6D1E184BD100D4F0DF /* LogInViewController.swift in Sources */,
 				98F332B91E1829C8007A6F15 /* SecondViewController.swift in Sources */,
 				98F332B51E1829C8007A6F15 /* AppDelegate.swift in Sources */,
 				98F332B71E1829C8007A6F15 /* FirstViewController.swift in Sources */,

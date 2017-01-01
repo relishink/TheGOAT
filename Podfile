@@ -7,7 +7,9 @@ target 'TheGOAT' do
 
   # Pods for TheGOAT
 
-
 pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
 
 end
