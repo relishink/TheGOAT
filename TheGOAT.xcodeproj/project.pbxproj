@@ -38,6 +38,7 @@
 		7086750722041F2C1E7F00D3 /* Pods_TheGOAT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheGOAT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		982A71E81E196CEC0083F7B7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		982A71EA1E196DF40083F7B7 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		985099C21E1ACC8100359AFE /* TheGOAT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheGOAT.entitlements; sourceTree = "<group>"; };
 		98648F561E18451900D4F0DF /* icons-27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-27.png"; sourceTree = "<group>"; };
 		98648F571E18451900D4F0DF /* icons-28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-28.png"; sourceTree = "<group>"; };
 		98648F581E18451900D4F0DF /* icons-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-29.png"; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		98F332B31E1829C8007A6F15 /* TheGOAT */ = {
 			isa = PBXGroup;
 			children = (
+				985099C21E1ACC8100359AFE /* TheGOAT.entitlements */,
 				98648F551E18450D00D4F0DF /* icons */,
 				98F332CC1E182F10007A6F15 /* ViewControllers */,
 				98F332B41E1829C8007A6F15 /* AppDelegate.swift */,
@@ -195,6 +197,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = L7UBP2M73C;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};

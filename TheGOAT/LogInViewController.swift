@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 class LogInViewController: UIViewController {
+    
+  
+    @IBOutlet weak var logInEmail: UITextField!
 
+    @IBOutlet weak var logInPassword: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -18,15 +25,33 @@ class LogInViewController: UIViewController {
         backgroundImage.image = UIImage(named: "background.png")
         backgroundImage.contentMode =  UIViewContentMode.scaleAspectFill
         self.view.insertSubview(backgroundImage, at: 0)
+        
+        
+        
     }
     
     //  White status bar
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }
-
     
-    //create account button
+    
+    
+    @IBAction func loginTapped(_ sender: Any) {
+        
+        /* Sign In with user's credentials.
+        guard let email = logInEmail.text, let password = logInPassword.text else { return }
+        FIRAuth.auth()?.signIn(withEmail: email, password: password) { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+        }
+        
+    }
+    
+    */
+    }
     
     
     
